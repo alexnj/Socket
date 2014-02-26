@@ -1,0 +1,62 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Inconsolata|Merriweather:400,300,700,900,300italic,400italic,700italic,900italic);
+
+/* Remember, !important is brutal. */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, #page_reader {
+    font-family: 'Merriweather', serif !important;
+    padding-top: 3em !important;
+     background-color: #fdf6e3 !important;
+    color: #657b83 !important;
+}
+
+a {
+    cursor: pointer;
+    color: #b58900 !important;
+}
+
+a:hover {
+    background-color: #eee8d5 !important;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Slab', serif !important;
+}
+
+h1 {
+    font-size: 2 !important;
+    line-height: 1em !important;
+}
+
+h2 {
+    font-size: 1.5em !important;
+}
+
+pre {
+    color: #586e75 !important;
+    background-color: #eee8d5 !important;
+    font-family: "Inconsolata", monospace !important;
+    padding: 1em !important;
+    margin-left: 1em !important;
+}
+
+video:focus {
+    outline: none;
+}
+
+.clear {
+    clear: both;
+}
+
+#page {
+    position: relative;
+}
+
+#content {
+    z-index: 80;
+}
